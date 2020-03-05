@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.makeKeyAndVisible()
         
         let storyboard = UIStoryboard(name: "Home", bundle: nil)
-        let homeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController")
+        let homeViewController = storyboard.instantiateViewController(withIdentifier: "TabBarController")
         
         self.window?.rootViewController = homeViewController
         
